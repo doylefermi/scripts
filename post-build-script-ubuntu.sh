@@ -27,7 +27,7 @@ sudo add-apt-repository -y ppa:gnome3-team/gnome3
 sudo add-apt-repository -y ppa:tualatrix/ppa
 sudo add-apt-repository -y ppa:numix/ppa
 sudo add-apt-repository -y ppa:freyja-dev/unity-tweak-tool-daily
-sudo add-apt-repository -y ppa:nilarimogard/webupd8
+sudo apt-add-repository -y ppa:fixnix/netspeed
 
 #Updates
 echo "${blu}Updating apt...${txtrst}"
@@ -101,7 +101,7 @@ sudo apt-get install -y git build-essential
 sudo apt-get install -y ubuntu-tweak
 sudo apt-get install -y unity-tweak-tool
 sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
-sudo apt-get install -y indicator-netspeed
+sudo apt-get install -y indicator-netspeed-unity
 sudo apt-get install -y nethogs
 sudo apt-get install -y vnstat
 sudo apt-get install -y xtrlock
