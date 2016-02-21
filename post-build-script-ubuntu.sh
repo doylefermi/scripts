@@ -35,7 +35,6 @@ sudo add-apt-repository -y ppa:gnome-terminator/nightly
 sudo add-apt-repository -y "ppa:mank319/go-for-it"
 sudo add-apt-repository -y ppa:simonschneegans/testing
 
-
 #Updates
 echo "${blu}Updating apt...${txtrst}"
 sudo apt-get -y update
@@ -100,7 +99,7 @@ exit
 
 #Packages
 echo "${blu}Downloading packages and installing (wait for lots of time)...${txtrst}"
-sudo apt-get install -y gdebi system-config-samba grub-customizer oracle-java8-installer vlc tlp tlp-rdw gimp gimp-data gimp-plugin-registry gimp-data-extras unrar zip unzip git build-essential ubuntu-tweak unity-tweak-tool numix-gtk-theme numix-icon-theme-circle indicator-netspeed-unity nethogs vnstat xtrlock screenfetch kazam
+sudo apt-get install -y gdebi system-config-samba grub-customizer oracle-java8-installer vlc tlp tlp-rdw gimp gimp-data gimp-plugin-registry gimp-data-extras unrar zip unzip git build-essential ubuntu-tweak unity-tweak-tool numix-gtk-theme numix-icon-theme-circle indicator-netspeed-unity nethogs vnstat xtrlock screenfetch kazam filezilla
 
 sudo apt-get -y install takeabreak
 sudo apt-get -y install screenkey
